@@ -16,7 +16,7 @@ class Particle {
   }
   
   void display(){
-    //sddfdfdfdfd,
+    fill(random(1,255),0,0);
     ellipse(position.x, position.y, 10, 10);
   }
 }

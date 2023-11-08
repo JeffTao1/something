@@ -6,6 +6,7 @@ void setup(){
 }
 
 void draw(){
+  //kgygyugyg
   background(0);
   for (int i = 0; i < particles.size(); i++){
     particles.get(i).update();
